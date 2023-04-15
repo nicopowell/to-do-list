@@ -18,6 +18,47 @@
     <title>Ejercicio 3</title>
 </head>
 <body>
-  
+  <nav class="text-center text-light py-4">
+    <h1>Lista To Do</h1>
+    <h2 class="text-white-50">Ejercicio 2</h2>
+  </nav>
+  <main class="py-4">
+    <div id="listaContainer" class="p-4 rounded d-flex flex-column">
+      <section class="py-2">
+        <form>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Ingrese una tarea" id="inputTarea" required>
+            <button class="btn btn-primary px-2 py-0 border-0" type="submit" id="inputBtn"><i class="bi bi-plus-lg fs-3"></i></button>
+          </div>
+        </form>
+      </section>
+      <hr>
+      <section class="flex-grow-1">
+        <ul class="p-0" id="contenedorTareas">
+        </ul>
+      </section>
+      <hr>
+      <section class="d-flex justify-content-between align-items-center pb-2">
+        <p class="m-0">Tienes <span id="tareasPendientes">0</span> tareas pendientes</p>
+        <button class="btn btn-primary" id="btnBorrarTodo">Borrar todo</button>
+      </section>
+    </div>
+  </main>
+  <footer class="text-center text-light p-3">
+    <p class="m-0">Nicolas Powell</p>
+    <p class="m-0">
+      <a
+        href="https://github.com/nicopowell"
+        class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+        >GitHub</a
+      >
+    </p>
+  </footer>
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
