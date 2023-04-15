@@ -27,21 +27,20 @@
       <section class="py-2">
         <form>
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Ingrese una tarea">
+            <input type="text" class="form-control" placeholder="Ingrese una tarea" id="inputTarea" required>
             <button class="btn btn-primary px-2 py-0 border-0" type="submit" id="inputBtn"><i class="bi bi-plus-lg fs-3"></i></button>
           </div>
         </form>
       </section>
       <hr>
       <section class="flex-grow-1">
-        <ul class="p-0">
-          <li class="rounded"><span class="flex-grow-1">Adawdawd</span><button class="btn p-0"><i class="bi bi-trash fs-5 px-0"></i></button></li>
+        <ul class="p-0" id="contenedorTareas">
         </ul>
       </section>
       <hr>
       <section class="d-flex justify-content-between align-items-center pb-2">
-        <p class="m-0">Tienes <span id="tareasPendientes"></span> tareas pendientes</p>
-        <button class="btn btn-primary">Borrar todo</button>
+        <p class="m-0">Tienes <span id="tareasPendientes">0</span> tareas pendientes</p>
+        <button class="btn btn-primary" id="btnBorrarTodo">Borrar todo</button>
       </section>
     </div>
   </main>
