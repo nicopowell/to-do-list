@@ -18,9 +18,8 @@ main {
 
 #listaContainer {
   width: 90%;
-  height: 550px;
   max-width: 600px;
-  max-height: 550px;
+  min-height: 500px;
   background-color: #eeeeee;
 }
 
@@ -52,4 +51,9 @@ li i{
 
 li:hover i{
   right: 0px;
+}
+
+.completada {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
