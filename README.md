@@ -17,7 +17,7 @@ En este ejercicio armé una lista de tareas, las cuales se agregan por un input 
 En una terminal utilizar el siguiente comando
 
 ```
-git clone https://github.com/nicopowell/nicopowell-numero-magico.git
+git clone https://github.com/nicopowell/to-do-list.git
 ```
 
 ## Autores
